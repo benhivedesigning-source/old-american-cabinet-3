@@ -27,7 +27,7 @@ const barnDoors = [
 const interiorExterior = [
   { name: 'Front Doors', image: 'https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?q=80&w=800&auto=format&fit=crop' },
   { name: 'French Doors', image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Dutch Doors', image: 'https://images.unsplash.com/photo-1542861618-2e0618bed062?q=80&w=800&auto=format&fit=crop' },
+  { name: 'Dutch Doors', image: 'https://images.unsplash.com/photo-1601628828688-632f38a5a7d0?q=80&w=2170&auto=format&fit=crop' },
   { name: 'Interior Doors', image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800&auto=format&fit=crop' },
 ];
 

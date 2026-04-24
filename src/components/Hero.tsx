@@ -33,13 +33,13 @@ export function Hero() {
       {/* Massive Typography Overlay */}
       <motion.div 
         style={{ opacity: opacityText, y: yText }}
-        className="relative z-10 text-center px-4 mix-blend-difference"
+        className="relative z-10 text-center px-4"
       >
         <motion.h1 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display font-bold text-[14vw] md:text-[10vw] leading-[0.85] text-white tracking-tighter"
+          className="font-display font-bold text-[14vw] md:text-[10vw] leading-[0.85] text-white tracking-tighter drop-shadow-lg"
         >
           OLD AMERICAN<br/>CABINET
         </motion.h1>

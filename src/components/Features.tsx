@@ -48,10 +48,10 @@ export function Features() {
                      animate={{ opacity: 1, scale: 1, rotate: 0 }}
                      exit={{ opacity: 0, scale: 0.8, rotate: -5 }}
                      transition={{ duration: 0.4, ease: "backOut" }}
-                     className="absolute left-[30%] md:left-[45%] top-1/2 w-[250px] md:w-[350px] aspect-video z-10 pointer-events-none hidden md:block shadow-2xl overflow-hidden rounded-sm"
+                     className="absolute left-[30%] md:left-[45%] top-1/2 w-[250px] md:w-[350px] aspect-video z-50 pointer-events-none hidden md:block shadow-2xl overflow-hidden rounded-sm"
                      style={{ y: "-50%" }}
                   >
-                    <img src={f.img} alt={f.title} className="w-full h-full object-cover filter brightness-75 transition-transform duration-700 ease-out scale-100 group-hover:scale-110" referrerPolicy="no-referrer" />
+                    <img src={f.img} alt={f.title} className="w-full h-full object-cover transition-transform duration-700 ease-out scale-100 group-hover:scale-110" referrerPolicy="no-referrer" />
                   </motion.div>
                 )}
               </AnimatePresence>
